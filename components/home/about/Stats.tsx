@@ -10,10 +10,12 @@ export const Stats = () => {
         <div className={styles.statColumn}>
           <h4>
             <AiFillCode size="2.4rem" color="var(--brand)" />
-            <span>AI/ML & Data Science</span>
+            <span>Programming, AI/ML & Data Science</span>
           </h4>
           <div className={styles.statGrid}>
             <span className="chip">Python</span>
+            <span className="chip">C++</span>
+            <span className="chip">Java</span>
             <span className="chip">PyTorch</span>
             <span className="chip">TensorFlow</span>
             <span className="chip">Transformers</span>
@@ -44,6 +46,7 @@ export const Stats = () => {
             <span className="chip">DigitalOcean</span>
             {/* <span className="chip">Kubernetes</span> */}
             <span className="chip">CI/CD</span>
+            <span className="chip">MLFlow</span>
             <span className="chip">FastAPI</span>
             <span className="chip">Celery</span>
             <span className="chip">RabbitMQ</span>

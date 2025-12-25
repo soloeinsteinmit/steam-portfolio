@@ -25,7 +25,9 @@ const SUPPORTED_LANGUAGES = {
   da: "Dansk",
   fi: "Suomi",
   no: "Norsk",
-  // Add more languages as needed
+  zh: "中文", // Chinese
+  ja: "日本語", // Japanese
+  ar: "العربية", // Arabic
 };
 
 export const LanguageDetector = () => {
@@ -41,17 +43,37 @@ export const LanguageDetector = () => {
       return;
     }
 
-    // Detect browser language
-    const browserLang = navigator.language.split("-")[0]; // e.g., "en-US" -> "en"
+    // Detect browser language with multiple fallbacks
+    let browserLang = "";
+
+    // Try navigator.language first
+    if (navigator.language) {
+      browserLang = navigator.language.split("-")[0].toLowerCase();
+    }
+    // Fallback to navigator.languages array
+    else if (navigator.languages && navigator.languages.length > 0) {
+      browserLang = navigator.languages[0].split("-")[0].toLowerCase();
+    }
+    // Final fallback to userLanguage (older IE)
+    else if ((navigator as any).userLanguage) {
+      browserLang = (navigator as any).userLanguage.split("-")[0].toLowerCase();
+    }
+
+    // console.log("Detected browser language:", browserLang); // Debug log
 
     // Check if it's not English and is supported
     if (
+      browserLang &&
       browserLang !== "en" &&
       SUPPORTED_LANGUAGES[browserLang as keyof typeof SUPPORTED_LANGUAGES]
     ) {
       setDetectedLang(browserLang);
       setShowBanner(true);
-    }
+      // console.log("Showing language banner for:", browserLang); // Debug log
+    } 
+    // else {
+    //   console.log("Banner not shown. Language:", browserLang); // Debug log
+    // }
   }, []);
 
   const handleDismiss = () => {

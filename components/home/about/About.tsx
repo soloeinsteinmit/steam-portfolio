@@ -36,7 +36,7 @@ export const About = () => {
           <Reveal>
             <p className={styles.aboutText}>
               My tech stack spans PyTorch, TensorFlow, FastAPI, Docker, and the
-              full MLOps toolchain (Celery, RabbitMQ, Redis). I&apos;m also
+              full MLOps toolchain (AWS, MLFlow, CI/CD etc.). I&apos;m also
               proficient in full-stack development with React, Next.js, Prisma, and
               building scalable distributed systems.
             </p>
@@ -52,10 +52,18 @@ export const About = () => {
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              Outside of AI and fintech, I&apos;m a gamer at heart 🎮 and love
-              watching science and tech videos to unwind. I also mentor at bootcamps and
-              contribute to open-source AI education projects. Let&apos;s
-              connect and build something amazing! 🚀
+              Outside of AI and fintech, I&apos;m a gamer at heart 🎮 - gaming helps me 
+              set my mind free and recharge. I&apos;m deeply passionate about motivating people 
+              to bring out the best in themselves, reading self-help books for personal growth, 
+              and listening to motivational talks from my mentors. I also love public speaking 
+              and seize every opportunity to inspire and share knowledge on stage.
+            </p>
+          </Reveal>
+          <Reveal>
+            <p className={styles.aboutText}>
+              I mentor at bootcamps, contribute to open-source AI education projects, and 
+              enjoy watching science and tech videos to stay curious. Let&apos;s connect and build 
+              something amazing! 🚀
             </p>
           </Reveal>
           <Reveal>
