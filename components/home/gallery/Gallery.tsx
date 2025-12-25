@@ -218,5 +218,17 @@ const galleryImages = [
     caption: "Back at Accra airport with the team after a successful drone mapping mission.",
     year: "2025",
   },
+  {
+    src: "/gallery/run1.jpeg",
+    alt: "Runmila AI Institute Summer Camp",
+    caption: "Teaching Python and Generative AI to students from Montserrat, Grenada, and Dominica during the Runmila AI Summer Camp.",
+    year: "2025",
+  },
+  {
+    src: "/gallery/run2.jpeg",
+    alt: "Runmila AI Institute Summer Camp",
+    caption: "Conducting a hands-on session on Large Language Models and AI agents via Google Colab.",
+    year: "2025",
+  },
 ];
 
