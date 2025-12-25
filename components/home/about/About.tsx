@@ -13,7 +13,7 @@ export const About = () => {
         <div>
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-              Hey there! I&apos;m Solomon Eshun (but everyone calls me Solo Shun
+              Hey there! I&apos;m Solomon Eshun (but I love to be called Solo Shun
               😄). I&apos;m an AI/ML Engineer with a strong Software Engineering
               foundation, currently working as an L3 MLOps Engineer at EnBW (via
               Ishango AI) and Founding ML Engineer at Noeud.
@@ -37,7 +37,7 @@ export const About = () => {
             <p className={styles.aboutText}>
               My tech stack spans PyTorch, TensorFlow, FastAPI, Docker, and the
               full MLOps toolchain (Celery, RabbitMQ, Redis). I&apos;m also
-              proficient in full-stack development with React, Next.js, and
+              proficient in full-stack development with React, Next.js, Prisma, and
               building scalable distributed systems.
             </p>
           </Reveal>
@@ -53,7 +53,7 @@ export const About = () => {
           <Reveal>
             <p className={styles.aboutText}>
               Outside of AI and fintech, I&apos;m a gamer at heart 🎮 and love
-              watching videos to unwind. I also mentor at bootcamps and
+              watching science and tech videos to unwind. I also mentor at bootcamps and
               contribute to open-source AI education projects. Let&apos;s
               connect and build something amazing! 🚀
             </p>

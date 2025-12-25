@@ -19,85 +19,112 @@ export const Projects = () => {
 const projects = [
   {
     title: "Moremi Deep Research Agent",
-    imgSrc: "/project-imgs/portfolio-00.png",
+    imgSrc: "/project-imgs/deep_research.png",
     code: "https://moremi.ai",
     projectLink: "https://moremi.ai",
-    tech: ["Python", "LLMs", "Agentic AI", "RAG", "FastAPI", "Research Automation"],
+    tech: [
+      "Python",
+      "LLMs",
+      "Agentic AI",
+      "RAG",
+      "FastAPI",
+      "Research Automation",
+    ],
     description:
       "Advanced autonomous research agent achieving RACE score of 46.3 on DeepResearch Bench (ranked 3/18 globally).",
     modalContent: (
       <>
         <p>
-          Built an advanced autonomous research agent that demonstrates state-of-the-art 
-          reasoning and research capabilities. Achieved a RACE score of 46.3 on the 
-          DeepResearch Bench, ranking 3rd out of 18 agents globally.
+          Built an advanced autonomous research agent that demonstrates
+          state-of-the-art reasoning and research capabilities. Achieved a RACE
+          score of 46.3 on the DeepResearch Bench, ranking 3rd out of 18 agents
+          globally.
         </p>
         <p>
-          The system integrates multi-agent orchestration, advanced retrieval techniques, 
-          and reasoning capabilities to conduct comprehensive research autonomously. 
-          Deployed on production platform serving real-world research workflows.
+          The system integrates multi-agent orchestration, advanced retrieval
+          techniques, and reasoning capabilities to conduct comprehensive
+          research autonomously. Deployed on production platform serving
+          real-world research workflows.
         </p>
         <p>
-          Featured in MinoHealth AI Labs blog as a breakthrough in agentic AI research systems.
+          Featured in MinoHealth AI Labs blog as a breakthrough in agentic AI
+          research systems.
         </p>
       </>
     ),
   },
   {
     title: "Quantitative XAU/USD Session Strategy",
-    imgSrc: "/project-imgs/portfolio-01.png",
+    imgSrc: "/project-imgs/xauusd.jpg",
     code: "https://github.com/soloeinsteinmit/Quantitative-XAUUSD-Strategy",
-    projectLink: "https://medium.com/@soloshun/can-ai-find-winning-patterns-in-the-gold-market-a-deep-dive-into-session-dynamics-1c600336128d",
-    tech: ["Python", "XGBoost", "LSTM", "Transformers", "Time-Series", "MetaTrader5"],
+    projectLink:
+      "https://medium.com/@soloshun/can-ai-find-winning-patterns-in-the-gold-market-a-deep-dive-into-session-dynamics-1c600336128d",
+    tech: [
+      "Python",
+      "XGBoost",
+      "LSTM",
+      "Transformers",
+      "Time-Series",
+      "MetaTrader5",
+    ],
     description:
       "End-to-end ML pipeline benchmarking XGBoost, LSTM, and Transformer architectures for financial market prediction.",
     modalContent: (
       <>
         <p>
-          Built a comprehensive end-to-end machine learning pipeline to predict gold market 
-          (XAU/USD) direction and returns using state-of-the-art time-series models.
+          Built a comprehensive end-to-end machine learning pipeline to predict
+          gold market (XAU/USD) direction and returns using state-of-the-art
+          time-series models.
         </p>
         <p>
-          Implemented full workflow including data acquisition via MetaTrader5 API, advanced 
-          feature engineering, model training, evaluation, and backtesting. Compared 
-          performance across XGBoost, LSTM, and Transformer architectures.
+          Implemented full workflow including data acquisition via MetaTrader5
+          API, advanced feature engineering, model training, evaluation, and
+          backtesting. Compared performance across XGBoost, LSTM, and
+          Transformer architectures.
         </p>
         <p>
-          Documented findings in a detailed Medium article exploring session dynamics and 
-          pattern recognition in financial markets.
+          Documented findings in a detailed Medium article exploring session
+          dynamics and pattern recognition in financial markets.
         </p>
       </>
     ),
   },
   {
     title: "Building LLM from Scratch",
-    imgSrc: "/project-imgs/portfolio-00.png",
+    imgSrc: "/project-imgs/llm.webp",
     code: "https://github.com/soloeinsteinmit/llm-from-scratch",
     projectLink: "https://soloshun.medium.com/",
-    tech: ["Python", "PyTorch", "Transformers", "Tokenization", "Attention Mechanisms"],
+    tech: [
+      "Python",
+      "PyTorch",
+      "Transformers",
+      "Tokenization",
+      "Attention Mechanisms",
+    ],
     description:
       "Educational journey developing a functional LLM from first principles, documented with code and articles.",
     modalContent: (
       <>
         <p>
-          Developing a functional Large Language Model from first principles to deeply 
-          understand transformer architectures, attention mechanisms, tokenization, and 
-          training workflows.
+          Developing a functional Large Language Model from first principles to
+          deeply understand transformer architectures, attention mechanisms,
+          tokenization, and training workflows.
         </p>
         <p>
-          This public learning journey documents the entire process through open-source code, 
-          detailed visualizations, and educational articles aimed at making advanced AI 
-          concepts accessible to everyone.
+          This public learning journey documents the entire process through
+          open-source code, detailed visualizations, and educational articles
+          aimed at making advanced AI concepts accessible to everyone.
         </p>
         <p>
-          Published on Medium with comprehensive explanations of each component and design decision.
+          Published on Medium with comprehensive explanations of each component
+          and design decision.
         </p>
       </>
     ),
   },
   {
     title: "Sonu AI - Plant Disease Detection",
-    imgSrc: "/project-imgs/portfolio-01.png",
+    imgSrc: "/project-imgs/sonu.png",
     code: "https://github.com/soloeinsteinmit/sonu-ai",
     projectLink: "https://sonu-ai.vercel.app",
     tech: ["Next.js", "ONNX", "Computer Vision", "PWA", "Tailwind", "Leaflet"],
@@ -106,72 +133,90 @@ const projects = [
     modalContent: (
       <>
         <p>
-          Developed an AI-powered offline Progressive Web App for crop disease detection 
-          and treatment guidance, specifically optimized for Ghanaian farmers with limited 
-          internet connectivity.
+          Developed an AI-powered offline Progressive Web App for crop disease
+          detection and treatment guidance, specifically optimized for Ghanaian
+          farmers with limited internet connectivity.
         </p>
         <p>
-          Implemented ONNX for on-device inference enabling full offline functionality, 
-          integrated Leaflet for outbreak mapping visualization, and built a responsive 
-          mobile UI with Next.js and Tailwind CSS.
+          Implemented ONNX for on-device inference enabling full offline
+          functionality, integrated Leaflet for outbreak mapping visualization,
+          and built a responsive mobile UI with Next.js and Tailwind CSS.
         </p>
         <p>
-          Achieved 96% accuracy with complete offline capability and deployed live within 
-          5 days as a hackathon project. Featured on Devpost.
+          Achieved 96% accuracy with complete offline capability and deployed
+          live within 5 days as a hackathon project. Featured on Devpost.
         </p>
       </>
     ),
   },
   {
     title: "DS.AlgoDeck - Interactive Learning Platform",
-    imgSrc: "/project-imgs/portfolio-00.png",
+    imgSrc: "/project-imgs/dsalgo.png",
     code: "https://github.com/soloeinsteinmit/ds-algo-deck-v010",
     projectLink: "https://dsalgodeck.netlify.app/",
-    tech: ["React", "JavaScript", "Gemini API", "Data Structures", "Algorithms"],
+    tech: [
+      "React",
+      "JavaScript",
+      "Gemini API",
+      "Data Structures",
+      "Algorithms",
+    ],
     description:
       "Open-source educational platform for learning data structures through interactive visualizations and AI-powered code generation.",
     modalContent: (
       <>
         <p>
-          Built an open-source educational platform that makes learning data structures 
-          and algorithms engaging through interactive visualizations and hands-on practice.
+          Built an open-source educational platform that makes learning data
+          structures and algorithms engaging through interactive visualizations
+          and hands-on practice.
         </p>
         <p>
-          Currently implementing an AI-powered code generator using the Gemini API to 
-          provide personalized coding assistance and automatic solution generation for 
-          learners at all levels.
+          Currently implementing an AI-powered code generator using the Gemini
+          API to provide personalized coding assistance and automatic solution
+          generation for learners at all levels.
         </p>
         <p>
-          Features include a live playground for experimentation, visual representations 
-          of algorithms in action, and comprehensive learning resources.
+          Features include a live playground for experimentation, visual
+          representations of algorithms in action, and comprehensive learning
+          resources.
         </p>
       </>
     ),
   },
   {
     title: "Moremi Bio - Drug Discovery Platform",
-    imgSrc: "/project-imgs/portfolio-01.png",
+    imgSrc: "/project-imgs/moremi.png",
     code: "#",
     projectLink: "https://moremi.ai",
-    tech: ["Python", "Docker", "FastAPI", "Celery", "RabbitMQ", "Redis", "3Dmol.js"],
+    tech: [
+      "Python",
+      "Docker",
+      "FastAPI",
+      "Celery",
+      "RabbitMQ",
+      "Redis",
+      "3Dmol.js",
+    ],
     description:
       "Containerized bioinformatics platform processing 20,000+ molecules, co-authored 4 research publications in 2025.",
     modalContent: (
       <>
         <p>
-          Architected a containerized bioinformatics tool using Docker and FastAPI that 
-          integrates 20+ heterogeneous tools (C++, Python, Java, Perl) into one reproducible 
-          pipeline for drug discovery.
+          Architected a containerized bioinformatics tool using Docker and
+          FastAPI that integrates 20+ heterogeneous tools (C++, Python, Java,
+          Perl) into one reproducible pipeline for drug discovery.
         </p>
         <p>
-          Built a scalable distributed task orchestration system with Celery, RabbitMQ, and 
-          Redis to dynamically schedule heterogeneous bioinformatics workloads, enabling 
-          concurrent multi-hour molecular dynamics simulations.
+          Built a scalable distributed task orchestration system with Celery,
+          RabbitMQ, and Redis to dynamically schedule heterogeneous
+          bioinformatics workloads, enabling concurrent multi-hour molecular
+          dynamics simulations.
         </p>
         <p>
-          Developed a high-throughput molecular validation and ranking system capable of 
-          processing 20,000+ proteins and SMILES molecules in a single multi-day run. 
-          This technology powered 4 co-authored research publications in 2025.
+          Developed a high-throughput molecular validation and ranking system
+          capable of processing 20,000+ proteins and SMILES molecules in a
+          single multi-day run. This technology powered 4 co-authored research
+          publications in 2025.
         </p>
       </>
     ),

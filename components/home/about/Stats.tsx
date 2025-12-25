@@ -42,17 +42,18 @@ export const Stats = () => {
             <span className="chip">Docker</span>
             <span className="chip">AWS</span>
             <span className="chip">DigitalOcean</span>
-            <span className="chip">Kubernetes</span>
+            {/* <span className="chip">Kubernetes</span> */}
             <span className="chip">CI/CD</span>
             <span className="chip">FastAPI</span>
             <span className="chip">Celery</span>
             <span className="chip">RabbitMQ</span>
             <span className="chip">Redis</span>
-            <span className="chip">PostgreSQL</span>
+            <span className="chip">PostgreSQL & MySQL</span>
             <span className="chip">MongoDB</span>
             <span className="chip">Git</span>
             <span className="chip">Linux</span>
             <span className="chip">ETL Pipelines</span>
+            <span className="chip">Data Modeling & Database Design</span>
           </div>
         </div>
       </Reveal>
@@ -70,6 +71,7 @@ export const Stats = () => {
             <span className="chip">JavaScript</span>
             <span className="chip">Tailwind</span>
             <span className="chip">Figma</span>
+            <span className="chip">Prisma</span>
             <span className="chip">Justinmind</span>
             <span className="chip">MQL5</span>
             <span className="chip">MetaTrader</span>

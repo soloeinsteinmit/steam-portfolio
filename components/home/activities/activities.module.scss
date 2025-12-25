@@ -7,6 +7,7 @@
 
 .section {
   position: relative;
+  width: 100%;
 }
 
 .sectionTitle {
@@ -18,16 +19,11 @@
 }
 
 .activity {
-  margin-bottom: 3rem;
-  padding: 0 0 3rem;
+  margin-bottom: 2.4rem;
+  padding: 0 0 2.4rem;
   border-bottom: 1px solid rgba(99, 179, 237, 0.1);
   width: 100%;
-  
-  &:last-child {
-    margin-bottom: 0;
-    padding-bottom: 0;
-    border-bottom: none;
-  }
+  box-sizing: border-box;
 }
 
 .header {
@@ -37,12 +33,15 @@
   gap: 1rem;
   margin-bottom: 1rem;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .title {
   font-size: var(--text-md);
   font-weight: 600;
   color: var(--text);
+  flex: 1;
+  min-width: 0;
 }
 
 .meta {
@@ -53,6 +52,8 @@
   font-size: var(--text-xs);
   color: var(--text-secondary);
   margin-bottom: 1.2rem;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .organization {
@@ -72,6 +73,8 @@
   font-weight: 400;
   line-height: 1.7;
   color: var(--text-secondary);
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .linkIcon {

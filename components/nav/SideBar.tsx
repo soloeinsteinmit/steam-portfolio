@@ -92,15 +92,26 @@ export const SideBar = () => {
         >
           Activities
         </motion.a>
+        
         <motion.a
           initial={{ x: -70 }}
           animate={{ x: 0 }}
-          transition={{ duration: 0.5, delay: 0.6 }}
+          transition={{ duration: 0.5, delay: 0.7 }}
           href="#contact"
           onClick={() => setSelected("contact")}
           className={selected === "contact" ? styles.selected : ""}
         >
           Contact
+        </motion.a>
+        <motion.a
+          initial={{ x: -70 }}
+          animate={{ x: 0 }}
+          transition={{ duration: 0.5, delay: 0.6 }}
+          href="#gallery"
+          onClick={() => setSelected("gallery")}
+          className={selected === "gallery" ? styles.selected : ""}
+        >
+          Gallery
         </motion.a>
       </motion.nav>
     </div>

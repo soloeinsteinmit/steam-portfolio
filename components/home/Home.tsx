@@ -8,6 +8,7 @@ import { Projects } from "./projects/Projects";
 import { Experience } from "./experience/Experience";
 import { Publications } from "./publications/Publications";
 import { Activities } from "./activities/Activities";
+import { Gallery } from "./gallery/Gallery";
 import { Contact } from "./contact/Contact";
 
 export const Home = () => {
@@ -24,6 +25,7 @@ export const Home = () => {
           <Publications />
           <Activities />
           <Contact />
+          <Gallery />
           <div
             style={{
               height: "200px",

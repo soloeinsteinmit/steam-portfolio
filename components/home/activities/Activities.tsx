@@ -39,7 +39,7 @@ const conferences = [
     organization: "Academic City University",
     date: "2025",
     description: "Presented on Software Engineering in the Age of AI",
-    link: "https://www.linkedin.com/posts/solomon-eshun-788568317_techandbeyond2025-softwareengineering-stemeducation-activity-7389425182307733504-fCiS",
+    link: "https://www.linkedin.com/posts/solomon-eshun-788568317_softwareengineering-ai-techandbeyondexpo-activity-7391428562798465024-n_BO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFBZzFgBdNK_PhBkFl0AT6WT8ExWJp_082s",
   },
   {
     title: "Ghana Data Science Summit 2025 (IndabaX)",
