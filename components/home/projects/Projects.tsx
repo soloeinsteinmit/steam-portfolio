@@ -184,7 +184,7 @@ const projects = [
     ),
   },
   {
-    title: "Moremi Bio Co-Researcher Agent",
+    title: "Moremi Agents",
     imgSrc: "/project-imgs/moremi.png",
     code: "#",
     projectLink: "https://moremi.ai",
@@ -203,11 +203,11 @@ const projects = [
       <>
         <p>
           Designed <strong>Moremi Bio Co-Researcher Agent</strong>, a
-          constrained and security-hardened public deployment on the moremi.ai
-          platform designed to support applied bioinformatics and computational
-          biology research workflows. This autonomous, tool-driven research
-          system conducts independent scientific exploration and features across
-          my published co-authored works.
+          constrained and security-hardened public deployment version of 
+          <strong>Moremi Bio Agent</strong> on the <a href="https://moremi.ai"> <u><em>moremi.ai</em></u></a> 
+          platform designed to support applied bioinformatics and computational biology research workflows. 
+          It uses a tool-driven research system to conduct independent scientific exploration and 
+          leverages the same unified 20+ containerized bioinformatics and computational biology tools infrastructure.
         </p>
         <p>
           <strong>MoremiSearch</strong> is a powerful, real-time web search tool
@@ -224,12 +224,6 @@ const projects = [
           preliminary medical reports from medical images such as X-rays, MRIs,
           and CT scans, streamlining workflows and providing immediate,
           data-driven insights that accelerate the diagnostic process.
-        </p>
-        <p>
-          The system leverages the same 20+ containerized bioinformatics tools
-          architecture, enabling reproducible research workflows and supporting
-          the scientific work that powered 4 co-authored research publications
-          in 2025.
         </p>
       </>
     ),

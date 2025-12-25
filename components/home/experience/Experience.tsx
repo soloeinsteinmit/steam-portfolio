@@ -54,7 +54,7 @@ const experience = [
     time: "Oct 2024 - Dec 2025",
     location: "Accra, Ghana",
     description:
-      "Engineered unified, containerized infrastructure integrating 20+ bioinformatics and computational biology tools (written in C++, Python, Java and Perl) with asynchronous task orchestration (Celery, RabbitMQ, Redis). Architected Moremi Bio Co-Researcher, Moremi Agent and Moremi Search powering research workflows on moremi.ai platform. Built Moremi Deep Research Agent (RACE score 46.3, ranked 3/18 on DeepResearch Bench) and designed an autonomous agent technology behind 4 co-authored 2025 research publications including a double-blinded validation study with Imperial College London, Infectious Disease.",
+      "Engineered unified, containerized infrastructure integrating 20+ bioinformatics and computational biology tools (written in C++, Python, Java and Perl) with asynchronous task orchestration (Celery, RabbitMQ, Redis). Architected Moremi Bio Co-Researcher, Moremi Agent and Moremi Search powering research workflows on moremi.ai platform. Built Moremi Deep Research Agent (RACE score 46.3, ranked 3/18 on DeepResearch Bench) and designed Moremi Bio Agent, an autonomous research agent technology behind 4 co-authored 2025 research publications including a double-blinded validation study with Imperial College London, Infectious Disease.",
     tech: [
       "Python",
       "Docker",

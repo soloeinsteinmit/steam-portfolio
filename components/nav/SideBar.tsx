@@ -9,20 +9,54 @@ export const SideBar = () => {
     const sections = document.querySelectorAll(".section-wrapper");
 
     const options = {
-      threshold: 0.3,
+      threshold: [0.1, 0.3, 0.5],
+      rootMargin: "-20% 0px -20% 0px",
     };
 
     const callback = (entries: any) => {
+      // Find the section with the highest intersection ratio
+      let maxRatio = 0;
+      let maxEntry: any = null;
+
       entries.forEach((entry: any) => {
-        if (entry.isIntersecting) {
-          setSelected(entry.target.id);
+        if (entry.isIntersecting && entry.intersectionRatio > maxRatio) {
+          maxRatio = entry.intersectionRatio;
+          maxEntry = entry;
         }
       });
+
+      if (maxEntry) {
+        setSelected(maxEntry.target.id);
+      }
     };
 
     const observer = new IntersectionObserver(callback, options);
 
     sections.forEach((section) => observer.observe(section));
+
+    // Fallback: Check scroll position on scroll events
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY + window.innerHeight / 2;
+      
+      sections.forEach((section: any) => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.offsetHeight;
+        const sectionBottom = sectionTop + sectionHeight;
+        
+        if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+          setSelected(section.id);
+        }
+      });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Initial check
+
+    // Cleanup
+    return () => {
+      sections.forEach((section) => observer.unobserve(section));
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
   return (
