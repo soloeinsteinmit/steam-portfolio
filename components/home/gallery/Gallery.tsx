@@ -173,7 +173,7 @@ const galleryImages = [
   {
     src: "/gallery/glb2.jpg",
     alt: "ActiveTrack Project Presentation",
-    caption: "Presenting ActiveTrack at the GlobalCode Project Display: An AI-driven fitness tracker integrating IoT, LSTM models, and GPT-2",
+    caption: "Presenting ActiveTrack at the GlobalCode Project Display: An AI-driven fitness tracker integrating IoT, LSTM models, and open-source LLMs",
     year: "2024",
   },
 ];
