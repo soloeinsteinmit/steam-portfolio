@@ -10,6 +10,7 @@ import { Publications } from "./publications/Publications";
 import { Activities } from "./activities/Activities";
 import { Gallery } from "./gallery/Gallery";
 import { Contact } from "./contact/Contact";
+import { LanguageDetector } from "../utils/LanguageDetector";
 
 export const Home = () => {
   return (
@@ -35,6 +36,8 @@ export const Home = () => {
           />
         </main>
       </div>
+      {/* Language Detection Banner - Comment out to disable */}
+      <LanguageDetector />
     </>
   );
 };

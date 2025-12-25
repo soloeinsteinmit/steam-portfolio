@@ -20,7 +20,7 @@ const projects = [
   {
     title: "Moremi Deep Research Agent",
     imgSrc: "/project-imgs/deep_research.png",
-    code: "https://moremi.ai",
+    code: "#",
     projectLink: "https://moremi.ai",
     tech: [
       "Python",
@@ -184,39 +184,52 @@ const projects = [
     ),
   },
   {
-    title: "Moremi Bio - Drug Discovery Platform",
+    title: "Moremi Bio Co-Researcher Agent",
     imgSrc: "/project-imgs/moremi.png",
     code: "#",
     projectLink: "https://moremi.ai",
     tech: [
       "Python",
+      "Agentic AI",
       "Docker",
       "FastAPI",
-      "Celery",
-      "RabbitMQ",
-      "Redis",
-      "3Dmol.js",
+      "LLMs",
+      "Bioinformatics Tools",
+      "Medical Imaging",
     ],
     description:
-      "Containerized bioinformatics platform processing 20,000+ molecules, co-authored 4 research publications in 2025.",
+      "Autonomous research agent powering applied bioinformatics workflows on moremi.ai, featuring real-time clinical search and medical image analysis.",
     modalContent: (
       <>
         <p>
-          Architected a containerized bioinformatics tool using Docker and
-          FastAPI that integrates 20+ heterogeneous tools (C++, Python, Java,
-          Perl) into one reproducible pipeline for drug discovery.
+          Designed <strong>Moremi Bio Co-Researcher Agent</strong>, a
+          constrained and security-hardened public deployment on the moremi.ai
+          platform designed to support applied bioinformatics and computational
+          biology research workflows. This autonomous, tool-driven research
+          system conducts independent scientific exploration and features across
+          my published co-authored works.
         </p>
         <p>
-          Built a scalable distributed task orchestration system with Celery,
-          RabbitMQ, and Redis to dynamically schedule heterogeneous
-          bioinformatics workloads, enabling concurrent multi-hour molecular
-          dynamics simulations.
+          <strong>MoremiSearch</strong> is a powerful, real-time web search tool
+          that allows the AI Agent to access and analyze information across all
+          domains. While it can perform any AI search, it is uniquely optimized
+          for clinical applications, helping conduct complex medical research
+          with unprecedented speed, including the latest research on drug
+          specifications, clinical trial data, and emerging treatment protocols.
         </p>
         <p>
-          Developed a high-throughput molecular validation and ranking system
-          capable of processing 20,000+ proteins and SMILES molecules in a
-          single multi-day run. This technology powered 4 co-authored research
-          publications in 2025.
+          <strong>Moremi AI Agent</strong> takes the platform further by using
+          specialized tools to provide the best possible response to complex
+          queries. A key feature is its ability to generate detailed,
+          preliminary medical reports from medical images such as X-rays, MRIs,
+          and CT scans, streamlining workflows and providing immediate,
+          data-driven insights that accelerate the diagnostic process.
+        </p>
+        <p>
+          The system leverages the same 20+ containerized bioinformatics tools
+          architecture, enabling reproducible research workflows and supporting
+          the scientific work that powered 4 co-authored research publications
+          in 2025.
         </p>
       </>
     ),
