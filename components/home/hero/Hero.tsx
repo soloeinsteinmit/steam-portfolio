@@ -36,10 +36,13 @@ export const Hero = () => {
             </StandardButton>
           </Reveal>
         </div>
-        <motion.div
+        {/* Profile image - uncomment and adjust positioning as needed */}
+        {/* <motion.div
           initial={{ y: -30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.4 }}>
+          transition={{ duration: 0.5, delay: 0.4 }}
+          className={styles.profileWrapper}
+        >
           <Image
             className={styles.profile}
             src={Profile}
@@ -48,7 +51,7 @@ export const Hero = () => {
             width={250}
             height={250}
           />
-        </motion.div>
+        </motion.div> */}
       </div>
       <DotGrid />
     </section>

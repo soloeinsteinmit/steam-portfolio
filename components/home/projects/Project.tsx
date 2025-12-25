@@ -3,7 +3,8 @@ import { Reveal } from "@/components/utils/Reveal";
 import { useAnimation, useInView, motion } from "framer-motion";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
+import { RxExternalLink } from "react-icons/rx";
 import { ProjectModal } from "./ProjectModal";
 import styles from "./projects.module.scss";
 interface Props {
@@ -69,6 +70,8 @@ export const Project = ({
             style={{
               width: hovered ? "90% !important" : "85% !important",
               rotate: hovered ? "2deg" : "0deg",
+              transform: hovered ? "scale(1.05)" : "scale(1)",
+              transition: "all 0.4s cubic-bezier(0.4, 0, 0.2, 1)",
             }}
           />
           {/* <img
@@ -91,7 +94,7 @@ export const Project = ({
               </Link>
 
               <Link href={projectLink} target="_blank" rel="nofollow">
-                <AiOutlineExport size="2.8rem" />
+                <RxExternalLink size="2.8rem" />
               </Link>
             </div>
           </Reveal>

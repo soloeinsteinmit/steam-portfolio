@@ -38,7 +38,7 @@ export const SideBar = () => {
           document.getElementById("main")?.scrollIntoView() :
           document.location.hash = '';
           }}>
-          JC<span>.</span>
+          SS<span>.</span>
         </span>
         <motion.a
           initial={{ x: -70 }}
@@ -76,6 +76,26 @@ export const SideBar = () => {
           initial={{ x: -70 }}
           animate={{ x: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
+          href="#publications"
+          onClick={() => setSelected("publications")}
+          className={selected === "publications" ? styles.selected : ""}
+        >
+          Publications
+        </motion.a>
+        <motion.a
+          initial={{ x: -70 }}
+          animate={{ x: 0 }}
+          transition={{ duration: 0.5, delay: 0.5 }}
+          href="#activities"
+          onClick={() => setSelected("activities")}
+          className={selected === "activities" ? styles.selected : ""}
+        >
+          Activities
+        </motion.a>
+        <motion.a
+          initial={{ x: -70 }}
+          animate={{ x: 0 }}
+          transition={{ duration: 0.5, delay: 0.6 }}
           href="#contact"
           onClick={() => setSelected("contact")}
           className={selected === "contact" ? styles.selected : ""}

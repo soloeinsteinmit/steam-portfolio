@@ -11,9 +11,9 @@
   --brand: rgb(99, 179, 237);
   --brand-accent: rgb(129, 140, 248);
 
-  --text-xs: 1.3rem;
-  --text-sm: 1.5rem;
-  --text-md: 1.8rem;
+  --text-xs: 1.2rem;
+  --text-sm: 1.4rem;
+  --text-md: 1.6rem;
   --text-lg: 2.8rem;
   --text-xl: 4.2rem;
   --text-2xl: 7.2rem;
@@ -75,11 +75,4 @@ a {
   padding: 0.5rem 1.2rem;
   border-radius: 0.6rem;
   border: 1px solid rgba(99, 179, 237, 0.15);
-  transition: all 0.2s ease;
-}
-
-.chip:hover {
-  background: rgba(99, 179, 237, 0.1);
-  border-color: rgba(99, 179, 237, 0.3);
-  transform: translateY(-2px);
 }
