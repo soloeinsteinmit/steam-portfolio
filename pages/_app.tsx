@@ -1,12 +1,15 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
-import { Poppins } from "next/font/google";
+import { Space_Grotesk } from "next/font/google";
 
-const poppins = Poppins({ weight: ["100", "200", "400", "700", "900"] });
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <div id="root" className={poppins.className}>
+    <div id="root" className={spaceGrotesk.className}>
       <Component {...pageProps} />
     </div>
   );

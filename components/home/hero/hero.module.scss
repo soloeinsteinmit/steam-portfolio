@@ -33,20 +33,26 @@
 
 .subTitle {
   font-size: var(--text-lg);
-  line-height: 1.1;
+  line-height: 1.2;
   margin-top: 1.6rem;
-  font-weight: 200;
+  font-weight: 400;
 
   span {
-    font-weight: bold;
-    color: var(--brand);
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--brand), var(--brand-accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 }
 
 .aboutCopy {
   margin: 2.4rem 0;
-  max-width: 700px;
-  font-weight: 200;
+  max-width: 650px;
+  font-weight: 400;
+  line-height: 1.7;
+  font-size: var(--text-md);
+  color: var(--text-secondary);
 }
 
 .profile {

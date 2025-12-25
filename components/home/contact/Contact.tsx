@@ -14,23 +14,25 @@ export const Contact = () => {
         </Reveal>
         <Reveal width="100%">
           <p className={styles.contactCopy}>
-            Have an idea to discuss? Shoot me an email if you want to connect! You can also find me on{" "}
+            Have an exciting AI/ML project or research collaboration in mind? Let&apos;s connect! 
+            Shoot me an email or find me on{" "}
             <Link
-              href="https://www.linkedin.com/in/john-carlo-devera-5240761b6/"
+              href="https://www.linkedin.com/in/solomon-eshun-788568317"
               target="_blank"
               rel="nofollow"
             >
-              Linkedin
+              LinkedIn
             </Link>{" "}
             or{" "}
-            <Link href="https://join.skype.com/invite/vKVMgi5SGjvM" target="_blank" rel="nofollow">
-              Skype
+            <Link href="https://github.com/soloeinsteinmit" target="_blank" rel="nofollow">
+              GitHub
             </Link>{" "}
-            if that&apos;s more your speed.
+            if that&apos;s more your speed. I&apos;m always excited to discuss cutting-edge AI, 
+            collaborate on research, or explore new opportunities! 🚀
           </p>
         </Reveal>
         <Reveal width="100%">
-          <Link href="mailto:dev.johncarlo.devera@gmail.com">
+          <Link href="mailto:solomoneshun373@gmail.com">
             <div className={styles.contactEmail}>
               <AiFillMail size="2.4rem" />
               <span>Send Email</span>

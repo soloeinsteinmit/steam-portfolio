@@ -18,146 +18,161 @@ export const Projects = () => {
 
 const projects = [
   {
-    title: "Classified",
-    imgSrc: "/project-imgs/agency-listing.png",
-    code: "#",
-    projectLink: "#",
-    tech: ["React", "Nextjs", "Tailwind", "Prisma"],
-    description: "An Insurance Agency Listing Web Application.",
-    modalContent: (
-      <>
-        <p>
-          Worked as a front-end developer and created dynamic reusable
-          components and base layout from a mock-up.
-        </p>
-        <p>
-          The tech stack is based on Nextjs with the custom tailwind components,
-          connected to a Prisma backend.
-        </p>
-      </>
-    ),
-  },
-  {
-    title: "Elancerz",
-    imgSrc: "/project-imgs/elancerz.png",
-    code: "https://www.github.com",
-    projectLink: "https://elancerz.com/",
-    tech: ["React", "Nextjs", "Sytled Components", "Firebase Auth", "Laravel"],
-    description:
-      "A Talent finder app for anything around the world. This is my first time as a React developer job.",
-    modalContent: (
-      <>
-        <p>
-          Worked as a front-end developer and created dynamic reusable
-          components, integrated calendly, messaging and project management
-          features.
-        </p>
-        <p>
-          The tech stack is based on Nextjs with the custom Styled components,
-          connected to a Laravel backend, with data stored in Mysql.
-        </p>
-      </>
-    ),
-  },
-  {
-    title: "Agency Iron Admin",
-    imgSrc: "/project-imgs/agency-iron-crm.png",
-    code: "https://www.github.com",
-    // projectLink: "https://agency-iron-crm.herokuapp.com/",
-    projectLink: "#",
-    tech: ["React", "MUI", "MongoDB", "Postgres", "Python"],
-    description:
-      "A Dashboard for clients and admin of Rocky Mountain West Insurance LLC. using Vuejs and re-worked using Reactjs.",
-    modalContent: (
-      <>
-        <p>
-          Worked as a front-end developer for this web application. Integrated
-          api&apos;s, Created dynamic and reusable components.
-        </p>
-        <p>
-          I work primarily on the frontend, creating reusable components and
-          integrating api.
-        </p>
-        <p>
-          The team in total consists of 3 developers. This is a passion project
-          for all of us.
-        </p>
-      </>
-    ),
-  },
-  {
-    title: "WorshipHIM",
-    imgSrc: "/project-imgs/wh_app.png",
-    code: "https://www.github.com",
-    projectLink:
-      "https://play.google.com/store/apps/details?id=com.ellinx.lightapps.worshiphim&hl=en&gl=US",
-    tech: ["React", "React Native", "Styled Components", "Android"],
-    description:
-      "WorshipHIM is a chord and lyrics app developed to help ease everyone in their worship to God.",
-    modalContent: (
-      <>
-        <p>
-          WorshipHIM is a chord and lyrics app developed to help ease everyone
-          in their worship to God. So that all may know, from the rising of the
-          sun to its setting, That there is none besides God. He is the Lord and
-          there&apos;s no other! Praise Him, Worship Him!
-        </p>
-        <p>This is a very fun project that i made using React Native.</p>
-      </>
-    ),
-  },
-  {
-    title: "WorshipHIM Landing Page",
-    imgSrc: "/project-imgs/worshiphim.png",
-    code: "https://www.github.com",
-    projectLink: "https://worshiphim.vercel.app/",
-    tech: ["React", "Nextjs", "Tailwind", "Google Play Scrapper", "Ko-Fi"],
-    description:
-      "Landing Page of WorshipHIM mobile application for showcasing feature rich and tools of the app.",
-    modalContent: (
-      <>
-        <p>
-          This is another self project that i made to showcase our mobile app.
-        </p>
-        <p>
-          I integrated ko-fi donation and uses Template for this Nextjs Project.
-          I also use a plugin for scrapping data from our google play to display
-          directly on the landing page.
-        </p>
-      </>
-    ),
-  },
-  {
-    title: "Portfolio v.2",
-    imgSrc: "/project-imgs/portfolio-01.png",
-    code: "https://github.com/jcdevz-dev/portfolio",
-    projectLink: "#",
-    tech: ["React", "Styled Components", "Typescript", "Gatsby"],
-    description: "First Portfolio Made with React JS",
-    modalContent: (
-      <>
-        <p>
-          This is my second version of my portfolio that i made to showcase my
-          projects.
-        </p>
-        <p>Trying out gatsby and creating my second version of portfolio</p>
-      </>
-    ),
-  },
-  {
-    title: "Portfolio v.1",
+    title: "Moremi Deep Research Agent",
     imgSrc: "/project-imgs/portfolio-00.png",
-    code: "https://github.com/jcdevz-dev/jc-portfolio",
-    projectLink: "https://jc-devera.vercel.app/",
-    tech: ["React", "Styled Components", "Typescript"],
-    description: "First Portfolio Made with React JS",
+    code: "https://moremi.ai",
+    projectLink: "https://moremi.ai",
+    tech: ["Python", "LLMs", "Agentic AI", "RAG", "FastAPI", "Research Automation"],
+    description:
+      "Advanced autonomous research agent achieving RACE score of 46.3 on DeepResearch Bench (ranked 3/18 globally).",
     modalContent: (
       <>
         <p>
-          This is my first version of my portfolio that i made to showcase my
-          projects.
+          Built an advanced autonomous research agent that demonstrates state-of-the-art 
+          reasoning and research capabilities. Achieved a RACE score of 46.3 on the 
+          DeepResearch Bench, ranking 3rd out of 18 agents globally.
         </p>
-        <p>First step for learning React JS and creating my portfolio</p>
+        <p>
+          The system integrates multi-agent orchestration, advanced retrieval techniques, 
+          and reasoning capabilities to conduct comprehensive research autonomously. 
+          Deployed on production platform serving real-world research workflows.
+        </p>
+        <p>
+          Featured in MinoHealth AI Labs blog as a breakthrough in agentic AI research systems.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "Quantitative XAU/USD Session Strategy",
+    imgSrc: "/project-imgs/portfolio-01.png",
+    code: "https://github.com/soloeinsteinmit/Quantitative-XAUUSD-Strategy",
+    projectLink: "https://medium.com/@soloshun/can-ai-find-winning-patterns-in-the-gold-market-a-deep-dive-into-session-dynamics-1c600336128d",
+    tech: ["Python", "XGBoost", "LSTM", "Transformers", "Time-Series", "MetaTrader5"],
+    description:
+      "End-to-end ML pipeline benchmarking XGBoost, LSTM, and Transformer architectures for financial market prediction.",
+    modalContent: (
+      <>
+        <p>
+          Built a comprehensive end-to-end machine learning pipeline to predict gold market 
+          (XAU/USD) direction and returns using state-of-the-art time-series models.
+        </p>
+        <p>
+          Implemented full workflow including data acquisition via MetaTrader5 API, advanced 
+          feature engineering, model training, evaluation, and backtesting. Compared 
+          performance across XGBoost, LSTM, and Transformer architectures.
+        </p>
+        <p>
+          Documented findings in a detailed Medium article exploring session dynamics and 
+          pattern recognition in financial markets.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "Building LLM from Scratch",
+    imgSrc: "/project-imgs/portfolio-00.png",
+    code: "https://github.com/soloeinsteinmit/llm-from-scratch",
+    projectLink: "https://soloshun.medium.com/",
+    tech: ["Python", "PyTorch", "Transformers", "Tokenization", "Attention Mechanisms"],
+    description:
+      "Educational journey developing a functional LLM from first principles, documented with code and articles.",
+    modalContent: (
+      <>
+        <p>
+          Developing a functional Large Language Model from first principles to deeply 
+          understand transformer architectures, attention mechanisms, tokenization, and 
+          training workflows.
+        </p>
+        <p>
+          This public learning journey documents the entire process through open-source code, 
+          detailed visualizations, and educational articles aimed at making advanced AI 
+          concepts accessible to everyone.
+        </p>
+        <p>
+          Published on Medium with comprehensive explanations of each component and design decision.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "Sonu AI - Plant Disease Detection",
+    imgSrc: "/project-imgs/portfolio-01.png",
+    code: "https://github.com/soloeinsteinmit/sonu-ai",
+    projectLink: "https://sonu-ai.vercel.app",
+    tech: ["Next.js", "ONNX", "Computer Vision", "PWA", "Tailwind", "Leaflet"],
+    description:
+      "Offline-capable PWA for crop disease detection achieving 96% accuracy, built in 5 days for Ghanaian farmers.",
+    modalContent: (
+      <>
+        <p>
+          Developed an AI-powered offline Progressive Web App for crop disease detection 
+          and treatment guidance, specifically optimized for Ghanaian farmers with limited 
+          internet connectivity.
+        </p>
+        <p>
+          Implemented ONNX for on-device inference enabling full offline functionality, 
+          integrated Leaflet for outbreak mapping visualization, and built a responsive 
+          mobile UI with Next.js and Tailwind CSS.
+        </p>
+        <p>
+          Achieved 96% accuracy with complete offline capability and deployed live within 
+          5 days as a hackathon project. Featured on Devpost.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "DS.AlgoDeck - Interactive Learning Platform",
+    imgSrc: "/project-imgs/portfolio-00.png",
+    code: "https://github.com/soloeinsteinmit/ds-algo-deck-v010",
+    projectLink: "https://dsalgodeck.netlify.app/",
+    tech: ["React", "JavaScript", "Gemini API", "Data Structures", "Algorithms"],
+    description:
+      "Open-source educational platform for learning data structures through interactive visualizations and AI-powered code generation.",
+    modalContent: (
+      <>
+        <p>
+          Built an open-source educational platform that makes learning data structures 
+          and algorithms engaging through interactive visualizations and hands-on practice.
+        </p>
+        <p>
+          Currently implementing an AI-powered code generator using the Gemini API to 
+          provide personalized coding assistance and automatic solution generation for 
+          learners at all levels.
+        </p>
+        <p>
+          Features include a live playground for experimentation, visual representations 
+          of algorithms in action, and comprehensive learning resources.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "Moremi Bio - Drug Discovery Platform",
+    imgSrc: "/project-imgs/portfolio-01.png",
+    code: "#",
+    projectLink: "https://moremi.ai",
+    tech: ["Python", "Docker", "FastAPI", "Celery", "RabbitMQ", "Redis", "3Dmol.js"],
+    description:
+      "Containerized bioinformatics platform processing 20,000+ molecules, co-authored 4 research publications in 2025.",
+    modalContent: (
+      <>
+        <p>
+          Architected a containerized bioinformatics tool using Docker and FastAPI that 
+          integrates 20+ heterogeneous tools (C++, Python, Java, Perl) into one reproducible 
+          pipeline for drug discovery.
+        </p>
+        <p>
+          Built a scalable distributed task orchestration system with Celery, RabbitMQ, and 
+          Redis to dynamically schedule heterogeneous bioinformatics workloads, enabling 
+          concurrent multi-hour molecular dynamics simulations.
+        </p>
+        <p>
+          Developed a high-throughput molecular validation and ranking system capable of 
+          processing 20,000+ proteins and SMILES molecules in a single multi-day run. 
+          This technology powered 4 co-authored research publications in 2025.
+        </p>
       </>
     ),
   },

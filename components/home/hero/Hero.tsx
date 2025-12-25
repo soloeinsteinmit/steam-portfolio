@@ -13,19 +13,19 @@ export const Hero = () => {
         <div className={styles.copyWrapper}>
           <Reveal>
             <h1 className={styles.title}>
-              Hi, I&apos;m JC<span>.</span>
+              Hi, I&apos;m Solo Shun<span>.</span>
             </h1>
           </Reveal>
           <Reveal>
             <h2 className={styles.subTitle}>
-              I&apos;m a <span>Frontend Developer</span>
+              I&apos;m an <span>AI/ML Engineer</span>
             </h2>
           </Reveal>
           <Reveal>
             <p className={styles.aboutCopy}>
-              I&apos;ve spent the last 3 years building and scaling applications for
-              some pretty cool companies and individuals. I also create interesting self projects on my spare time.
-              Let&apos;s connect!
+              I design and deploy intelligent systems that push the boundaries of what&apos;s possible. 
+              From building autonomous AI agents that rank in top global benchmarks to developing 
+              scalable ML pipelines for real-world applications. Let&apos;s build the future together!
             </p>
           </Reveal>
           <Reveal>
@@ -44,7 +44,7 @@ export const Hero = () => {
             className={styles.profile}
             src={Profile}
             priority
-            alt="John Carlo Devera | Frontend Developer"
+            alt="Solomon Eshun (Solo Shun) | AI/ML Engineer"
             width={250}
             height={250}
           />

@@ -8,7 +8,7 @@ export const Heading = () => {
       <MyLinks />
       {/* <div className={styles.headingButtons}> */}
 
-      <OutlineButton onClick={() => window.open("/John Carlo P. Devera.pdf")}>
+      <OutlineButton onClick={() => window.open("/SolomonEshun_Resume_AI_ML_Engineer.pdf")}>
         My resume
       </OutlineButton>
       {/* </div> */}
