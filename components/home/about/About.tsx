@@ -16,7 +16,7 @@ export const About = () => {
               Hey there! I&apos;m Solomon Eshun (but I love to be called Solo Shun
               😄). I&apos;m an AI/ML Engineer with a strong Software Engineering
               foundation, currently working as an L3 MLOps Engineer at EnBW (via
-              Ishango AI) and Founding ML Engineer at Noeud.
+              Ishango AI, London UK) and Founding ML Engineer at Noeud.
               <br />
               <br />I specialize in building advanced AI systems that solve
               real-world problems - from autonomous research agents that rank

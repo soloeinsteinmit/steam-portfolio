@@ -14,7 +14,7 @@ export const Experience = () => {
 
 const experience = [
   {
-    title: "EnBW Energie Baden-Württemberg AG (via Ishango AI)",
+    title: "EnBW Energie Baden-Württemberg AG (via Ishango AI, London UK)",
     position: "L3 MLOps Engineer",
     time: "Dec 2025 - Present",
     location: "Karlsruhe, Germany (Remote)",
