@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { Reveal } from "@/components/utils/Reveal";
 import styles from "./gallery.module.scss";
@@ -8,25 +10,28 @@ interface Props {
   alt: string;
   caption: string;
   year: string;
+  onClick: () => void;
 }
 
-export const GalleryItem = ({ src, alt, caption, year }: Props) => {
+export const GalleryItem = ({ src, alt, caption, year, onClick }: Props) => {
   const [imageError, setImageError] = useState(false);
 
   return (
     <Reveal>
-      <div className={styles.galleryItem}>
+      <div className={styles.galleryItem} onClick={onClick}>
         {!imageError ? (
           <>
-            <Image
-              src={src}
-              alt={alt}
-              width={600}
-              height={400}
-              className={styles.image}
-              loading="lazy"
-              onError={() => setImageError(true)}
-            />
+            <div className={styles.imageWrapper}>
+              <Image
+                src={src}
+                alt={alt}
+                width={600}
+                height={400}
+                className={styles.image}
+                loading="lazy"
+                onError={() => setImageError(true)}
+              />
+            </div>
             <div className={styles.overlay}>
               <p className={styles.captionText}>{caption}</p>
               <span className={styles.year}>{year}</span>

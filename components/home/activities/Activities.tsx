@@ -48,6 +48,13 @@ const conferences = [
     description: "Guided participants through hands-on LoRA-based fine-tuning and VLM exercises",
     link: "https://www.linkedin.com/posts/minohealth-ai-labs_indabaxghana2025-datascience-minohealth-activity-7340762708012642304-BXoP",
   },
+  {
+    title: "DS-I Africa Program",
+    organization: "University of Ghana, Accra - Ghana",
+    date: "2025",
+    description: "Exhibited Moremi AI from minoHealth AI Labs, a generalist AI doctor democratizing access to quality healthcare across the continent",
+    link: "https://www.linkedin.com/posts/solomon-eshun-788568317_ever-wondered-what-happens-when-you-put-activity-7366020646008512512-4kW2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFBZzFgBdNK_PhBkFl0AT6WT8ExWJp_082s",
+  },
 ];
 
 const volunteer = [

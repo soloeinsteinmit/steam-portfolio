@@ -1,3 +1,5 @@
+"use client";
+
 /**
  * Gallery Component
  * 
@@ -12,20 +14,54 @@
  * - Formats: JPG (photos), PNG (graphics)
  */
 
+import { useState } from "react";
 import { SectionHeader } from "@/components/utils/SectionHeader";
 import { GalleryItem } from "./GalleryItem";
+import { Lightbox } from "./Lightbox";
 import styles from "./gallery.module.scss";
 
 export const Gallery = () => {
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const openLightbox = (index: number) => {
+    setCurrentImageIndex(index);
+    setLightboxOpen(true);
+  };
+
+  const closeLightbox = () => {
+    setLightboxOpen(false);
+  };
+
+  const goToNext = () => {
+    setCurrentImageIndex((prev) =>
+      prev < galleryImages.length - 1 ? prev + 1 : prev
+    );
+  };
+
+  const goToPrev = () => {
+    setCurrentImageIndex((prev) => (prev > 0 ? prev - 1 : prev));
+  };
+
   return (
     <section className="section-wrapper" id="gallery">
       <SectionHeader title="Gallery" dir="r" />
       
       <div className={styles.galleryGrid}>
         {galleryImages.map((item, idx) => (
-          <GalleryItem key={idx} {...item} />
+          <GalleryItem key={idx} {...item} onClick={() => openLightbox(idx)} />
         ))}
       </div>
+
+      {lightboxOpen && (
+        <Lightbox
+          images={galleryImages}
+          currentIndex={currentImageIndex}
+          onClose={closeLightbox}
+          onNext={goToNext}
+          onPrev={goToPrev}
+        />
+      )}
 
       {/* Uncomment when you have more images */}
       {/* <div className={styles.viewMore}>

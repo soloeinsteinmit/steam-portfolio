@@ -16,29 +16,37 @@
 
 .galleryItem {
   position: relative;
-  overflow: hidden;
   border-radius: 0.8rem;
   border: 1px solid rgba(99, 179, 237, 0.2);
   background: var(--background-light);
   cursor: pointer;
-  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
   margin-bottom: 2rem;
   break-inside: avoid;
   display: inline-block;
   width: 100%;
+  overflow: hidden;
 
   &:hover {
     transform: translateY(-4px);
     border-color: var(--brand);
+    box-shadow: 0 8px 24px rgba(99, 179, 237, 0.15);
 
     .overlay {
       opacity: 1;
     }
 
     .image {
-      transform: scale(1.05);
+      transform: scale(1.08);
     }
   }
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0.8rem;
 }
 
 .image {
@@ -46,7 +54,7 @@
   height: auto;
   display: block;
   object-fit: cover;
-  transition: transform 0.4s ease;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .overlay {

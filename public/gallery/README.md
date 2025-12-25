@@ -2,6 +2,14 @@
 
 Place your gallery images in this folder.
 
+## Gallery Features
+
+✨ **Lightbox Viewer**: Click any image to view it in full screen
+📱 **Keyboard Navigation**: Use ← → arrow keys to navigate between images
+🖱️ **Click Navigation**: Use left/right buttons in the lightbox
+🎨 **Masonry Layout**: Images auto-arrange beautifully regardless of size
+⚡ **Lazy Loading**: Images load only when scrolled into view
+
 ## How to Add Images
 
 1. **Compress your images** before adding them (use tools like TinyPNG, Squoosh, or ImageOptim)
