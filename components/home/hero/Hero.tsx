@@ -4,7 +4,7 @@ import { StandardButton } from "@/components/buttons/StandardButton";
 import { Reveal } from "@/components/utils/Reveal";
 import { DotGrid } from "./DotGrid";
 import styles from "./hero.module.scss";
-import Profile from "@/public/jc.jpg";
+import Profile from "@/public/ss.jpeg";
 
 export const Hero = () => {
   return (
@@ -36,21 +36,23 @@ export const Hero = () => {
             </StandardButton>
           </Reveal>
         </div>
-        {/* Profile image - uncomment and adjust positioning as needed */}
+        {/* Profile image card - uncomment when ready */}
         {/* <motion.div
           initial={{ y: -30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.4 }}
           className={styles.profileWrapper}
         >
-          <Image
-            className={styles.profile}
-            src={Profile}
-            priority
-            alt="Solomon Eshun (Solo Shun) | AI/ML Engineer"
-            width={250}
-            height={250}
-          />
+          <div className={styles.imageCard}>
+            <Image
+              className={styles.profile}
+              src={Profile}
+              priority
+              alt="Solomon Eshun (Solo Shun) | AI/ML Engineer"
+              width={280}
+              height={280}
+            />
+          </div>
         </motion.div> */}
       </div>
       <DotGrid />

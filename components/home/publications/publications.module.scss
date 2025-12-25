@@ -1,23 +1,16 @@
 .publication {
   margin-bottom: 3rem;
-  padding: 2.4rem;
-  background: var(--background-light);
-  border-radius: 0.8rem;
-  border: 1px solid rgba(99, 179, 237, 0.1);
-  transition: all 0.3s ease;
-
-  &:hover {
-    border-color: rgba(99, 179, 237, 0.3);
-    transform: translateY(-2px);
-  }
+  padding: 0 0 3rem;
+  border-bottom: 1px solid rgba(99, 179, 237, 0.1);
+  width: 100%;
 }
 
 .heading {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  gap: 1.6rem;
-  margin-bottom: 1.2rem;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
 .title {
@@ -25,7 +18,17 @@
   font-weight: 600;
   color: var(--text);
   line-height: 1.4;
-  margin-bottom: 0.8rem;
+}
+
+.linkIcon {
+  color: var(--brand);
+  opacity: 0.75;
+  transition: opacity 0.25s;
+  flex-shrink: 0;
+
+  &:hover {
+    opacity: 1;
+  }
 }
 
 .meta {
@@ -35,6 +38,7 @@
   flex-wrap: wrap;
   font-size: var(--text-xs);
   color: var(--text-secondary);
+  margin-bottom: 0.8rem;
 }
 
 .authors {
@@ -47,7 +51,7 @@
 }
 
 .year {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .separator {
@@ -55,39 +59,21 @@
 }
 
 .collaboration {
-  margin-top: 0.8rem;
   font-size: var(--text-xs);
   color: var(--text-secondary);
-  
-  span {
-    display: inline-block;
-    padding: 0.4rem 0;
-  }
-}
-
-.linkIcon {
-  color: var(--brand);
-  transition: all 0.2s ease;
-  flex-shrink: 0;
-
-  &:hover {
-    color: var(--brand-accent);
-    transform: scale(1.1);
-  }
+  margin-bottom: 1.2rem;
+  font-style: italic;
 }
 
 .description {
-  margin: 1.2rem 0;
-  font-size: var(--text-sm);
+  margin-bottom: 1.4rem;
+  font-weight: 400;
   line-height: 1.7;
   color: var(--text-secondary);
-  font-weight: 400;
 }
 
 .identifiers {
   display: flex;
   flex-wrap: wrap;
   gap: 0.8rem;
-  margin-top: 1.2rem;
 }
-

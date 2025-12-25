@@ -9,27 +9,21 @@ export const Activities = () => {
       
       <div className={styles.activitiesContainer}>
         <div className={styles.section}>
-          <h3 className={styles.sectionTitle}>
-            <span>🎤</span> Conferences & Seminars
-          </h3>
+          <h3 className={styles.sectionTitle}>Conferences & Seminars</h3>
           {conferences.map((item, idx) => (
             <ActivityItem key={idx} {...item} />
           ))}
         </div>
 
         <div className={styles.section}>
-          <h3 className={styles.sectionTitle}>
-            <span>🤝</span> Volunteer & Mentorship
-          </h3>
+          <h3 className={styles.sectionTitle}>Volunteer & Mentorship</h3>
           {volunteer.map((item, idx) => (
             <ActivityItem key={idx} {...item} />
           ))}
         </div>
 
         <div className={styles.section}>
-          <h3 className={styles.sectionTitle}>
-            <span>🏆</span> Certifications & Awards
-          </h3>
+          <h3 className={styles.sectionTitle}>Certifications & Awards</h3>
           {certifications.map((item, idx) => (
             <ActivityItem key={idx} {...item} />
           ))}
@@ -89,4 +83,5 @@ const certifications = [
     link: "#",
   },
 ];
+
 
