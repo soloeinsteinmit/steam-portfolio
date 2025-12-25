@@ -75,6 +75,12 @@ const galleryImages = [
     year: "2025",
   },
   {
+    src: "/gallery/ds4.jpeg",
+    alt: "DS-I Africa",
+    caption: "At DS-I Africa Consortium Meeting 2025",
+    year: "2025",
+  },
+  {
     src: "/gallery/4.jpeg",
     alt: "Global Code Bootcamp Mentoring",
     caption: "Mentoring students in Python and AI integration at University of Cape Coast",
@@ -98,6 +104,41 @@ const galleryImages = [
     caption: "LoRA fine-tuning workshop at IndabaX Ghana, Ashesi University",
     year: "2025",
   },
-  // Add more images here - the grid will auto-adjust!
+  {
+    src: "/gallery/rob1.jpg",
+    alt: "Robotics and IoT TransforME Project",
+    caption: "Best Participant Award for exceptional performance and innovation in Robotics and IoT",
+    year: "2023",
+  },
+  {
+    src: "/gallery/rob2.jpg",
+    alt: "Robotics and IoT TransforME Project",
+    caption: "Best Participant Award for exceptional performance and innovation in Robotics and IoT",
+    year: "2023",
+  },
+  {
+    src: "/gallery/rob3.jpeg",
+    alt: "Robotics and IoT TransforME Project",
+    caption: "Showcasing the award-winning project at the Robotics and IoT TransforME exhibition",
+    year: "2023",
+  },
+  {
+    src: "/gallery/rob4.jpeg",
+    alt: "Robotics and IoT TransforME Project",
+    caption: "Showcasing the award-winning project at the Robotics and IoT TransforME exhibition",
+    year: "2023",
+  },
+  {
+    src: "/gallery/glb1.jpg",
+    alt: "GlobalCode Certificate Ceremony",
+    caption: "Receiving the certificate for the GlobalCode 3-week Programming Camp (Raspberry Pi & Python)",
+    year: "2024",
+  },
+  {
+    src: "/gallery/glb2.jpg",
+    alt: "ActiveTrack Project Presentation",
+    caption: "Presenting ActiveTrack at the GlobalCode Project Display: An AI-driven fitness tracker integrating IoT, LSTM models, and GPT-2",
+    year: "2024",
+  },
 ];
 

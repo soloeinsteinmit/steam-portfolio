@@ -64,7 +64,7 @@ const certifications = [
   {
     title: "GlobalCode Certificate",
     organization: "3-week Programming Camp (Raspberry Pi & Python)",
-    date: "2023",
+    date: "2024",
     description: "Intensive programming bootcamp focused on hardware programming and Python",
     link: "#",
   },
