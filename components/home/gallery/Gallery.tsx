@@ -176,5 +176,47 @@ const galleryImages = [
     caption: "Presenting ActiveTrack at the GlobalCode Project Display: An AI-driven fitness tracker integrating IoT, LSTM models, and open-source LLMs",
     year: "2024",
   },
+  {
+    src: "/gallery/cadi1.jpg",
+    alt: "Drone mapping in Bono Region",
+    caption: "Selfie at my first drone mapping site in the Bono Region for the CADI AI pilot.",
+    year: "2025",
+  },
+  {
+    src: "/gallery/cadi2.jpg",
+    alt: "Team and extension officer on site",
+    caption: "With teammates Donald and BoBT and a local extension officer during field operations.",
+    year: "2025",
+  },
+  {
+    src: "/gallery/cadi3.jpg",
+    alt: "Arrival in Savannah Region",
+    caption: "First landing in the Savannah Region with the team for agricultural data collection.",
+    year: "2025",
+  },
+  {
+    src: "/gallery/cadi4.jpg",
+    alt: "DJI Phantom 4 Pro drone operation",
+    caption: "Operating the DJI Phantom 4 Pro with the team, a farmer, and an extension officer.",
+    year: "2025",
+  },
+  {
+    src: "/gallery/cadi5.jpg",
+    alt: "Aerial view of Accra",
+    caption: "View of Accra from the plane window during the flight back from Sunyani.",
+    year: "2025",
+  },
+  {
+    src: "/gallery/cadi6.jpeg",
+    alt: "Fieldwork and yam protection",
+    caption: "On the field with the drone bag; the metal fences here protect yams from hungry cattle😅!",
+    year: "2025",
+  },
+  {
+    src: "/gallery/cadi7.jpeg",
+    alt: "Arrival at Accra Airport",
+    caption: "Back at Accra airport with the team after a successful drone mapping mission.",
+    year: "2025",
+  },
 ];
 
