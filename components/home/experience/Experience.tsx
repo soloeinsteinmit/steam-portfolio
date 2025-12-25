@@ -51,7 +51,7 @@ const experience = [
   {
     title: "MinoHealth AI Labs",
     position: "Machine Learning Engineer",
-    time: "Oct 2025 - Dec 2025",
+    time: "Oct 2024 - Dec 2025",
     location: "Accra, Ghana",
     description:
       "Built Moremi Deep Research Agent (RACE score 46.3, ranked 3/18 on DeepResearch Bench). Engineered Moremi Bio Co-Researcher, Moremi AI Agent, and Moremi Search, deployed in production. Architected autonomous agent technology behind 4 co-authored 2025 research publications.",

@@ -14,22 +14,22 @@ export default function HomePage() {
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://solomoneshun.com/" />
+        <meta property="og:url" content="https://solomoneshun.vercel.app/" />
         <meta property="og:title" content="Solomon Eshun | AI/ML Engineer & MLOps Specialist" />
         <meta property="og:description" content="AI/ML Engineer building autonomous research agents and production ML systems. Ranked 3/18 globally on DeepResearch Bench. Expertise in PyTorch, MLOps, and agentic AI." />
-        <meta property="og:image" content="https://solomoneshun.com/screenshot.png" />
+        <meta property="og:image" content="https://solomoneshun.vercel.app/ss.jpeg" />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image"/>
-        <meta name="twitter:url" content="https://solomoneshun.com/" />
+        <meta name="twitter:url" content="https://solomoneshun.vercel.app/" />
         <meta name="twitter:title" content="Solomon Eshun | AI/ML Engineer & MLOps Specialist"/>
         <meta name="twitter:description" content="AI/ML Engineer building autonomous research agents and production ML systems. Expertise in PyTorch, MLOps, and agentic AI."/>
-        <meta name="twitter:image" content="https://solomoneshun.com/screenshot.png"/>
+        <meta name="twitter:image" content="https://solomoneshun.vercel.app/ss.jpeg"/>
 
         {/* Additional SEO */}
         <meta name="robots" content="index, follow" />
         <meta name="language" content="English" />
-        <link rel="canonical" href="https://solomoneshun.com/" />
+        <link rel="canonical" href="https://solomoneshun.vercel.app/" />
       </Head>
       <Home />
     </>

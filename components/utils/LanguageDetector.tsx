@@ -5,10 +5,10 @@ import styles from "./languagedetector.module.scss";
 
 /**
  * Simple Language Detector Component
- * 
+ *
  * Detects user's browser language and shows a suggestion to switch
  * Uses browser's navigator.language API
- * 
+ *
  * To enable: Import and add <LanguageDetector /> to your Home component
  */
 
@@ -43,9 +43,12 @@ export const LanguageDetector = () => {
 
     // Detect browser language
     const browserLang = navigator.language.split("-")[0]; // e.g., "en-US" -> "en"
-    
+
     // Check if it's not English and is supported
-    if (browserLang !== "en" && SUPPORTED_LANGUAGES[browserLang as keyof typeof SUPPORTED_LANGUAGES]) {
+    if (
+      browserLang !== "en" &&
+      SUPPORTED_LANGUAGES[browserLang as keyof typeof SUPPORTED_LANGUAGES]
+    ) {
       setDetectedLang(browserLang);
       setShowBanner(true);
     }
@@ -59,7 +62,9 @@ export const LanguageDetector = () => {
   const handleTranslate = () => {
     // Use Google Translate widget or redirect to translated version
     const currentUrl = window.location.href;
-    const googleTranslateUrl = `https://translate.google.com/translate?sl=en&tl=${detectedLang}&u=${encodeURIComponent(currentUrl)}`;
+    const googleTranslateUrl = `https://translate.google.com/translate?sl=en&tl=${detectedLang}&u=${encodeURIComponent(
+      currentUrl
+    )}`;
     window.open(googleTranslateUrl, "_blank");
     handleDismiss();
   };
@@ -72,8 +77,14 @@ export const LanguageDetector = () => {
         <span className={styles.icon}>🌍</span>
         <p className={styles.text}>
           It looks like you might prefer{" "}
-          <strong>{SUPPORTED_LANGUAGES[detectedLang as keyof typeof SUPPORTED_LANGUAGES]}</strong>.
-          Would you like to translate this page?
+          <strong>
+            {
+              SUPPORTED_LANGUAGES[
+                detectedLang as keyof typeof SUPPORTED_LANGUAGES
+              ]
+            }
+          </strong>
+          . Would you like to translate this page?
         </p>
         <div className={styles.buttons}>
           <button onClick={handleTranslate} className={styles.translateBtn}>
@@ -87,4 +98,3 @@ export const LanguageDetector = () => {
     </div>
   );
 };
-
